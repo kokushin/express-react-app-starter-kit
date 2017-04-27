@@ -1,2 +1,16 @@
 # express-react-app-starter-kit
-Node.js(Express), React.js, webpack, CSS Modules
+
+Start express server:
+```bash
+yarn start
+```
+
+Watch:
+```bash
+yarn dev
+```
+
+Build:
+```bash
+yarn build
+```
