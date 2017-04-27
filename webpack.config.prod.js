@@ -1,4 +1,3 @@
-const path = require('path')
 const webpack = require('webpack')
 
 module.exports = {
@@ -15,7 +14,7 @@ module.exports = {
       {
         test: /\.(js|jsx)$/,
         exclude: /node_modules/,
-        use: 'babel-loader',
+        use: ['babel-loader', 'eslint-loader'],
       },
       {
         test: /\.css$/,
